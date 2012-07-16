@@ -107,3 +107,16 @@ Admob
                                ads:adSize="BANNER"
                                ads:testDevices="@string/conf_admob_banner_testdevices"
                                ads:loadAdOnCreate="true"/>
+
+
+### proguard :
+
+	######### Ads START #########
+	-keep public class com.google.ads.**
+	-keep public class com.adfonic.android.**
+	-keep public class com.airpush.android.**
+	-keep public class com.millennialmedia.android.**
+	-keep public class com.mobfox.**
+	-keep public class com.inmobi.androidsdk.**
+	#-keepattributes *Annotation*
+	######### Ads END #########
