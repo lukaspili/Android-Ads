@@ -77,15 +77,6 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/ads_inmobi_sdk a350.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/ads_mmedia 4.5.1.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -114,6 +105,15 @@
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/libs/ads_mobfox_sdk 04.10.2012.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/ads_inmobi_sdk a350.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
